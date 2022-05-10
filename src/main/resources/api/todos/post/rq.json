@@ -1,0 +1,10 @@
+{
+  <#if userId?exists>
+  "userId": "${userId}",
+  <#else>
+  "userId": "property-is-missing",
+  </#if>
+  "id": 201,
+  "title":"${title}",
+  "completed": "skip"
+}
